@@ -36,7 +36,7 @@ if (ScrollTrigger.isTouch !== 1) {
 
                 scrub: true
             }
-        })
+        }) 
     });
 
     let itemsRight = gsap.utils.toArray('.gallery__right .gallery__item');
