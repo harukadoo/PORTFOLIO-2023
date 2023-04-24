@@ -476,6 +476,18 @@ body{
         padding: 4vh 0;
     }
 
+    .hero__title{
+        top: 50vh;
+        left: -2.5vw;
+        letter-spacing: -7px;
+        transform: scale(1, 2);
+        -webkit-transform: scale(1, 2);
+        -moz-transform: scale(1, 2);
+        -ms-transform: scale(1, 2);
+        -o-transform: scale(1, 2);
+    }
+
+
     .portfolio__gallery{
         display: flex;
         flex-direction: column-reverse;
