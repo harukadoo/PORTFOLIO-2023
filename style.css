@@ -146,6 +146,10 @@ body{
     
 }
 
+.pj4{
+    width: calc(var(--index) * 20);
+}
+
 .gallery__left{
     margin-top: calc(var(--index) * 30);
 }
@@ -317,6 +321,7 @@ body{
     -moz-transition: 0.3s ease-out;
     -ms-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
+    cursor: pointer;
 }
 
 .form__btn:hover{
